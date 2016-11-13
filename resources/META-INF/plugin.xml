@@ -1,0 +1,21 @@
+<idea-plugin version="1">
+    <id>jpe.jb.xcopy</id>
+    <name>JBXCopy</name>
+    <version>1.0</version>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="JBXCopy.Action" class="jpe.jb.xcopy.XCopyPasteAction" text="Paste Selection"
+                description="Inserts last selected text at cursor location">
+            <mouse-shortcut keystroke="button2" keymap="$default"/>
+        </action>
+    </actions>
+
+    <project-components>
+        <component>
+            <implementation-class>jpe.jb.xcopy.XCopyPlugin</implementation-class>
+        </component>
+    </project-components>
+
+</idea-plugin>
