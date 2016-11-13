@@ -1,4 +1,4 @@
-package jpe.jb.xcopy;
+package jpe.jb;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;

@@ -1,4 +1,4 @@
-package jpe.jb.xcopy;
+package jpe.jb;
 
 import com.intellij.openapi.components.AbstractProjectComponent;
 import com.intellij.openapi.fileEditor.FileEditorManagerListener;
